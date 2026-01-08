@@ -13,17 +13,17 @@ public class SumCalculatorTest {
     }
 
     @Test
-    public void Sumcalculator1() {
+    public void sumWhenInputIsOneReturnsOne() {
         Assertions.assertEquals(1, calc.sum(1));
     }
 
     @Test
-    public void Sumcalculator3() {
+    public void sumWhenInputIsThreeReturnsSix() {
         Assertions.assertEquals(6, calc.sum(3));
     }
 
     @Test
-    public void Sumcalculator0() {
+    public void sumWhenInputIsZeroThrowsIllegalArgumentException() {
         Assertions.assertThrows(IllegalArgumentException.class, () -> {
             calc.sum(0);
         });
