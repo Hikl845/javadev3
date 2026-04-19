@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SumCalculatorTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-01-07T01:05:26.826Z" hostname="jumper" time="0.02">
+  <properties/>
+  <testcase name="Sumcalculator0()" classname="SumCalculatorTest" time="0.016"/>
+  <testcase name="Sumcalculator1()" classname="SumCalculatorTest" time="0.002"/>
+  <testcase name="Sumcalculator3()" classname="SumCalculatorTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
